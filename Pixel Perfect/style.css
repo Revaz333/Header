@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+}
+li{
+    list-style: none;
+     text-align: center;
+      width: 146px;
+height: 14px;
+}
+@font-face{
+     font-family: "OpenSans";
+    src: url(Fonts/OpenSans-Light.ttf) format("truetype")
+}
+a{
+    text-decoration: none;
+    color: #1D1D1B;
+}
+.head{
+    background: #F8F8F8;
+    width: 100%;
+  
+   
+}
+.head ul{
+    display: flex;
+    padding-top: 11px;
+    padding-bottom: 13px;
+  
+   
+}
+.head a{
+    color:  #1D1D1B;
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 100%;
+}
+
+
+
+.container{
+    width: 1120px;
+    margin: 0 auto;
+    
+}
+.home{
+    display: flex;
+
+width: 1120px;
+margin: 0 auto;
+}
+.home .logo{
+
+}
+
+.home nav ul {
+    display: flex;
+   height: 48px;
+ align-items: center;
+ font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 100%;
+}
+.home nav ul li:hover{
+background-color: 
+}
+#serch-form{
+    width: 412px;
+height: 48px;
+display: flex;
+border: 1px solid #D5D5D5;
+}
+#serch-form .serch{
+    border: none;
+    width: 356px;
+    height: 48px;
+    padding-left: 16px;
+    outline: none;
+}
+#serch-form .but{
+    background-color: #E0001B;
+    background-image: url(img/Frame.png);
+    background-repeat: no-repeat;
+   background-position: center;
+    width: 56px;
+height: 48px;
+border: none;
+outline: none;
+}
+.main-menu{
+    background-color: #F8F8F8;
+    width: 1120px;
+    margin: 0 auto;
+height: 48px;
+}
+.main-menu nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 16px;
+    padding-left: 18px;
+   margin-top: 16px
+}
+.main-menu a{
+
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 100%;
+vertical-align: middle;
+}
+.main-menu ul li:first-child{
+    background-color: #E0001B;
+    color: #fff;
+}
